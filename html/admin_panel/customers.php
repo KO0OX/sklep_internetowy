@@ -38,7 +38,7 @@ while ($row = $query->fetch()){
         <button class="admin__contentContainer--closeBtn"><i class="fa-solid fa-x"></i></button>
         <form class="admin__contentContainer" id="create-product-form" method="post">
             <!-- <div class="admin__formContainersBox"> -->
-            <input type="hidden" name="filename" value="customers">
+            <input type="hidden" name="filename" id="filename" value="customers">
                 <div class="admin__formContainer">
                     <label for="name">Imię:</label>
                     <input type="text" name="firstname" id="firstname" class="admin__contentContainer--input" placeholder="Imię">

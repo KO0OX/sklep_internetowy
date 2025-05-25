@@ -41,9 +41,9 @@ popupCloseBtn.addEventListener('click', () => {
     popupShadow.classList.remove('visible')
 })
 
-addForm.addEventListener("submit", () => {
-    const formData = new FormData(addForm);
+addForm.addEventListener("submit", (e) => {
     const filename = document.querySelector('#filename').value
+    const formData = new FormData(addForm);
     formData.append('filename', filename)
     fetch(`../../php/admin_panel/add_item.php`, {
         method: 'POST',

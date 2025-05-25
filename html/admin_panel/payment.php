@@ -37,7 +37,7 @@ while ($row = $query->fetch()){
       <div class="admin__contentContainer">
         <button class="admin__contentContainer--closeBtn"><i class="fa-solid fa-x"></i></button>
         <form id="create-product-form" method="post">
-        <input type="hidden" name="filename" value="payment">
+        <input type="hidden" name="filename" id="filename" value="payment">
             <div class="admin__formContainer">
                 <label for="name">Nazwa sposobu płatności:</label>
                 <input type="text" name="name" id="name" class="admin__contentContainer--input" placeholder="Nazwa sposobu płatności">

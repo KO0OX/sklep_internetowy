@@ -34,9 +34,9 @@ while ($row = $query->fetch()){
 ?>
     <div class="admin__popup">
       <div class="admin__contentContainer">
-        <a href="./index.php" class="admin__contentContainer--closeBtn"><i class="fa-solid fa-x"></i></a>
-        <form id="create-product-form" method="post">
-        <input type="hidden" name="filename" value="shipping">
+        <a href="./shipping.php" class="admin__contentContainer--closeBtn"><i class="fa-solid fa-x"></i></a>
+        <form id="create-product-form" method="post" onsubmit="return false">
+        <input type="hidden" name="filename" id="filename" value="shipping">
             <div class="admin__formContainer">
                 <label for="name">Nazwa sposobu dostawy:</label>
                 <input type="text" name="name" id="name" class="admin__contentContainer--input" placeholder="Nazwa sposobu dostawy">
@@ -46,7 +46,7 @@ while ($row = $query->fetch()){
                 <input type="number" name="cost" id="cost" class="admin__contentContainer--input" placeholder="Koszt dostawy">
             </div>
             <button type="submit" class="admin__contentContainer--addProduct">Dodaj</button>
-        </form>
+          </form>
       </div>
     </div>
 </div>
