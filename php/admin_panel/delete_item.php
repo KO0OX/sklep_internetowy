@@ -86,7 +86,7 @@ if(isset($_POST['submit'])){
   <div class="admin__popup--shadow"></div>
   <main class="user admin">
     <section class="user__menu admin__menu">
-      <a href="./index.php" class="user__menu--item admin__menu--item link link-animation-two">Zarządzanie produktami</a>
+      <a href="../../html/admin_panel/index.php" class="user__menu--item admin__menu--item link link-animation-two">Zarządzanie produktami</a>
       <a href="./categories.php" class="user__menu--item admin__menu--item link link-animation-two">Zarządzanie kategoriami</a>
       <a href="./customers.php" class="user__menu--item admin__menu--item link link-animation-two">Zarządzanie klientami</a>
       <a href="./orders.php" class="user__menu--item admin__menu--item link link-animation-two">Zamówienia użytkowników</a>

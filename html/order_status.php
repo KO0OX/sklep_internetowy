@@ -104,7 +104,7 @@
 			  include './footer_component.php';
 			  echo $footer;
 		  ?>
-		  <p class="mb-0"> &copy; 2023 | Sunrise</p>
+		  <p class="mb-0"> &copy; 2025 | Sunrise</p>
 	  </footer>
   </body>
 </html>

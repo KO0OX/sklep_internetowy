@@ -100,14 +100,11 @@
         <a href="../../index.php" class="linkButton summary__backButton"><i class="ti ti-chevron-left"></i>Wróć na stronę główną</a>
     </main>
     <footer class="text-light py-4 text-center">
-		  <p class="mb-0"> &copy; 2023 | Sunrise</p>
-	  </footer>
-  </body>
-  <footer class="text-light py-4 text-center">
-		<?php
+      <?php
 			include './html/footer_component.php';
 			echo $footer;
 		?>
-		<p class="mb-0"> &copy; 2023 | Sunrise</p>
-	</footer>
+		  <p class="mb-0"> &copy; 2025 | Sunrise</p>
+	  </footer>
+  </body>
 </html>
